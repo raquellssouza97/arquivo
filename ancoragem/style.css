@@ -1,0 +1,30 @@
+*{
+    margin:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap:2rem;
+    position: fixed;
+    background-color: aliceblue;
+    height: 2rem;
+    width: 100%;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+section {
+    min-height: 1000vh;
+    padding-top: 3rem ;
+}
+#sobre{
+    background-color: yellow;
+}
+#servicos{
+    background-color: yellow;
+}
+#contato{
+    background-color: yellow;
+}
